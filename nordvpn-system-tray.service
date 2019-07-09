@@ -1,0 +1,14 @@
+[Unit]
+Description=System tray icon for NordVPN
+After=local-fs.target network.target systemd-user-sessions.target
+
+[Service]
+Type=simple
+ExecStart=/bin/sh -c '. /usr/lib/systemd/system/nordvpn-system-tray.service.d/init.sh && /usr/sbin/nordvpn-system-tray'
+Restart=no
+Environment="QT_DEBUG_PLUGINS=1"
+Environment="DISPLAY=:0"
+
+[Install]
+WantedBy=multi-user.target
+
