@@ -1,22 +1,29 @@
 
-#NordVPN Status Tray Icon
+# NordVPN Status Tray Icon
 
-** This project was not created by NordVPN **
+_**This project was not created by NordVPN**_
+
+![Example](/icon-in-action.png)
 
 A small service that displays the nordvpn connection status in the system tray.  
 Tested on KDE Plasma.
 
-##Requirements
+
+## Requirements
 - requires qt5
 - kde plasma
 
-##Installation
+## Installation
 - ./install.sh
 
-Icons are stored in /usr/share/pixmaps/
-Executable is stored in /usr/sbin/
-Auto start-up is done via user based systemd 
+------
+Icons are stored in /usr/share/pixmaps/  
+Executable is stored in /usr/sbin/  
+Auto start-up is done via user based systemd   
 
-##Uninstall
+------
+
+
+## Uninstall
 - ./uninstall.sh
 
