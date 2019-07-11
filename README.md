@@ -6,12 +6,12 @@ _**This project was not created by NordVPN**_
 ![Example](/icon-in-action.png)
 
 A small service that displays the nordvpn connection status in the system tray.  
-Tested on KDE Plasma.
-
+The icon will display blue when connected and red in any other state.
 
 ## Requirements
-- requires qt5
-- kde plasma
+- NordVPN CLI (https://nordvpn.com/download/linux/)
+- qt5
+- Desktop Environment (tested with KDE Plasma)
 
 ## Installation
 - ./install.sh
@@ -19,7 +19,7 @@ Tested on KDE Plasma.
 ------
 Icons are stored in /usr/share/pixmaps/  
 Executable is stored in /usr/sbin/  
-Auto start-up is done via user based systemd   
+Auto start-up is done via user based systemd  
 
 ------
 
